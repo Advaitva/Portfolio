@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  color: #000;
+  background-color: #f4f4f4;
+  transition: background-color 1s ease;
+}
+#container {
+  border: 1px solid rebeccapurple;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+  color: rgb(61, 59, 59);
+}
+img {
+  height: 15rem;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+h2 {
+  font-size: 2em;
+}
+#info {
+  margin-top: 20px;
+  font-size: 1.5em;
+}
+
+.panel {
+  /* min height incase content is higher than window height */
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: sans-serif;
+  /* outline: 10px solid hotpink; */
+  /* turn above on to see the edge of panels */
+}
+
+/* colours */
+.color-violet {
+  background-color: #91acb6;
+}
+.color-indigo {
+  background-color: #a09ad3;
+}
+.color-blue {
+  background-color: #85a9ce;
+}
+.color-green {
+  background-color: #8fca9b;
+}
+.color-yellow {
+  background-color: #cac586;
+}
+.color-orange {
+  background-color: #caaa8a;
+}
+.color-red {
+  background-color: #e98585;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
