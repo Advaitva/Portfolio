@@ -68,6 +68,20 @@ h2 {
   background-color: #e98585;
 }
 
+#icons {
+  box-shadow: 0 0 20px 5px gray;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: 20px;
+}
+
+i {
+  color: black;
+  margin: 20px;
+  font-size: 20px;
+}
 body::-webkit-scrollbar {
   display: none;
 }
